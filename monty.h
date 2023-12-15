@@ -62,8 +62,6 @@ void pchar(stack_t **stack, unsigned int line_num);
 void pstr(stack_t **stack, unsigned int line_num);
 void rotl(stack_t **stack, unsigned int line_num);
 void rotr(stack_t **stack, unsigned int line_num);
-void _push_queue(stack_t **stack, unsigned int line_num);
-stack_t *add_nodeint_queue(stack_t **stack, int n);
 
 
 #endif /* MONTY_H */
